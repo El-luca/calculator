@@ -71,7 +71,7 @@ $del.addEventListener('click', function(){
     $fieldResult.innerHTML = $fieldResult.textContent.slice(0, -1)
 })
 $result.addEventListener('click', function(){
-    if($fieldResult.textContent !== ''){
+    if($fieldResult !== ''){
         $fieldResult.innerHTML = eval($fieldResult.textContent)
     }else{
         $fieldResult.innerHTML = 'ERROR !!!'
